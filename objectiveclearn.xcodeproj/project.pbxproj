@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCC2AED6170DD43500F547FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC2AED5170DD43500F547FC /* Foundation.framework */; };
+		CCC2AED9170DD43500F547FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2AED8170DD43500F547FC /* main.m */; };
+		CCC2AEDD170DD43500F547FC /* objectiveclearn.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CCC2AED0170DD43500F547FC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				CCC2AEDD170DD43500F547FC /* objectiveclearn.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CCC2AED2170DD43500F547FC /* objectiveclearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objectiveclearn; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC2AED5170DD43500F547FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCC2AED8170DD43500F547FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCC2AEDB170DD43500F547FC /* objectiveclearn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectiveclearn-Prefix.pch"; sourceTree = "<group>"; };
+		CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = objectiveclearn.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC2AECF170DD43500F547FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC2AED6170DD43500F547FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC2AEC9170DD43500F547FC = {
+			isa = PBXGroup;
+			children = (
+				CCC2AED7170DD43500F547FC /* objectiveclearn */,
+				CCC2AED4170DD43500F547FC /* Frameworks */,
+				CCC2AED3170DD43500F547FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC2AED3170DD43500F547FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2AED2170DD43500F547FC /* objectiveclearn */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCC2AED4170DD43500F547FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2AED5170DD43500F547FC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC2AED7170DD43500F547FC /* objectiveclearn */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2AED8170DD43500F547FC /* main.m */,
+				CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */,
+				CCC2AEDA170DD43500F547FC /* Supporting Files */,
+			);
+			path = objectiveclearn;
+			sourceTree = "<group>";
+		};
+		CCC2AEDA170DD43500F547FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2AEDB170DD43500F547FC /* objectiveclearn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC2AED1170DD43500F547FC /* objectiveclearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC2AEE0170DD43500F547FC /* Build configuration list for PBXNativeTarget "objectiveclearn" */;
+			buildPhases = (
+				CCC2AECE170DD43500F547FC /* Sources */,
+				CCC2AECF170DD43500F547FC /* Frameworks */,
+				CCC2AED0170DD43500F547FC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objectiveclearn;
+			productName = objectiveclearn;
+			productReference = CCC2AED2170DD43500F547FC /* objectiveclearn */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC2AECA170DD43500F547FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "http://www.linguofeng.com";
+			};
+			buildConfigurationList = CCC2AECD170DD43500F547FC /* Build configuration list for PBXProject "objectiveclearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCC2AEC9170DD43500F547FC;
+			productRefGroup = CCC2AED3170DD43500F547FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC2AED1170DD43500F547FC /* objectiveclearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC2AECE170DD43500F547FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC2AED9170DD43500F547FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CCC2AEDE170DD43500F547FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCC2AEDF170DD43500F547FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCC2AEE1170DD43500F547FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectiveclearn/objectiveclearn-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCC2AEE2170DD43500F547FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "objectiveclearn/objectiveclearn-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC2AECD170DD43500F547FC /* Build configuration list for PBXProject "objectiveclearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC2AEDE170DD43500F547FC /* Debug */,
+				CCC2AEDF170DD43500F547FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC2AEE0170DD43500F547FC /* Build configuration list for PBXNativeTarget "objectiveclearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC2AEE1170DD43500F547FC /* Debug */,
+				CCC2AEE2170DD43500F547FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC2AECA170DD43500F547FC /* Project object */;
+}
