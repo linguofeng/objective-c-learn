@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9DB048170E7C3A00FEE719 /* NSStringDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9DB047170E7C3A00FEE719 /* NSStringDemo.m */; };
 		CCC2AED6170DD43500F547FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC2AED5170DD43500F547FC /* Foundation.framework */; };
 		CCC2AED9170DD43500F547FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2AED8170DD43500F547FC /* main.m */; };
 		CCC2AEDD170DD43500F547FC /* objectiveclearn.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */; };
+		CCC2AEE6170DD6D100F547FC /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2AEE5170DD6D100F547FC /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CC9DB046170E7C3A00FEE719 /* NSStringDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSStringDemo.h; path = datatype/NSStringDemo.h; sourceTree = "<group>"; };
+		CC9DB047170E7C3A00FEE719 /* NSStringDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSStringDemo.m; path = datatype/NSStringDemo.m; sourceTree = "<group>"; };
+		CC9DB049170E7C6F00FEE719 /* TestProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
 		CCC2AED2170DD43500F547FC /* objectiveclearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objectiveclearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC2AED5170DD43500F547FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCC2AED8170DD43500F547FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCC2AEDB170DD43500F547FC /* objectiveclearn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objectiveclearn-Prefix.pch"; sourceTree = "<group>"; };
 		CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = objectiveclearn.1; sourceTree = "<group>"; };
+		CCC2AEE4170DD6D100F547FC /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animal.h; path = oop/Animal.h; sourceTree = "<group>"; };
+		CCC2AEE5170DD6D100F547FC /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animal.m; path = oop/Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC9DB045170E7BE500FEE719 /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				CC9DB046170E7C3A00FEE719 /* NSStringDemo.h */,
+				CC9DB047170E7C3A00FEE719 /* NSStringDemo.m */,
+			);
+			name = DataType;
+			sourceTree = "<group>";
+		};
 		CCC2AEC9170DD43500F547FC = {
 			isa = PBXGroup;
 			children = (
@@ -73,9 +89,12 @@
 		CCC2AED7170DD43500F547FC /* objectiveclearn */ = {
 			isa = PBXGroup;
 			children = (
+				CC9DB045170E7BE500FEE719 /* DataType */,
+				CCC2AEE3170DD62D00F547FC /* oop */,
 				CCC2AED8170DD43500F547FC /* main.m */,
 				CCC2AEDC170DD43500F547FC /* objectiveclearn.1 */,
 				CCC2AEDA170DD43500F547FC /* Supporting Files */,
+				CC9DB049170E7C6F00FEE719 /* TestProtocol.h */,
 			);
 			path = objectiveclearn;
 			sourceTree = "<group>";
@@ -86,6 +105,15 @@
 				CCC2AEDB170DD43500F547FC /* objectiveclearn-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCC2AEE3170DD62D00F547FC /* oop */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2AEE4170DD6D100F547FC /* Animal.h */,
+				CCC2AEE5170DD6D100F547FC /* Animal.m */,
+			);
+			name = oop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC2AED9170DD43500F547FC /* main.m in Sources */,
+				CCC2AEE6170DD6D100F547FC /* Animal.m in Sources */,
+				CC9DB048170E7C3A00FEE719 /* NSStringDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +270,7 @@
 				CCC2AEE2170DD43500F547FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
