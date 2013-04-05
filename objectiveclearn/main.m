@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "TestProtocol.h"
-#import "Animal.h"
+#import "oop/Animal.h"
+#import "oop/Monkey.h"
 
 #import "datatype/NSStringDemo.h"
 
@@ -19,7 +20,6 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         NSLog(@"Hello, World!");
-        
         
         // oop
         Animal *animal = [[Animal alloc] init];
@@ -33,8 +33,14 @@ int main(int argc, const char * argv[])
         [cat sleep];
         [cat release];
         
+        Monkey *monkey = [[Monkey alloc] init];
+        [monkey eat:@"香蕉"];
+        [monkey climbTree];
+        [monkey release];
+        
         id <TestProtocol> test = [[NSStringDemo alloc] init];
         [test test];
+        [test release];
     }
     return 0;
 }

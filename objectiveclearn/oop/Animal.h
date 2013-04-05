@@ -25,14 +25,20 @@
  */
 @property(nonatomic, copy) NSString *name;
 
+
+- (void)eat:(NSString*) food;
+
+- (void)sleep;
+
+@end
+
+// 类目，可以看作是把函数进行一个分类，子类可以继承
+@interface Animal (anything)
+
 // 类方法，类似于C++中的对象静态方法，直接对象类访问
 + (id)animalWithName:(NSString*) name;
 
 // 实例方法，必须通过对象实例访问，接受一个NSString*类型的参数
 - (id)initWithName:(NSString*) name;
-
-- (void)eat:(NSString*) food;
-
-- (void)sleep;
 
 @end

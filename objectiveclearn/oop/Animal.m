@@ -20,7 +20,7 @@
 {
     self = [super init];
     if (self) {
-        _name = name; // 拷贝字符器
+        _name = name;
     }
     
     return self;
@@ -39,6 +39,7 @@
 - (void)dealloc
 {
     NSLog(@"%@ 死了...", _name);
+    _name = nil;    // 对象不再使用了，回收它
     [super dealloc];
 }
 
